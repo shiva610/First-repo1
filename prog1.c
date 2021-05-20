@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"mymath.h"
+//#include"mymath.h"
 int main()
 {
 	double x,y;
@@ -8,7 +8,7 @@ int main()
 	scanf("%lf",&x);
 	printf("enter the second number \n");
 	scanf("%lf",&y);
-	double res = myadd(x,y);
+	double res = x+y;
 	printf("result is %lf",res);
 	return 0;
 }
